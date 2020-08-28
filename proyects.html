@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CODER HOUSE - Área de Talentos - Proyectos Reales</title>
+
+	<!-- Import CSS-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+	<!-- Import JS -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script src="./assets/js/main.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<header>
+			<h1>HEADER CODERHOUSE</h1>
+		</header>
+
+		<!-- Start Content -->
+		<div id="content" class="row proyects-content mx-auto">
+			<aside class="proyects-aside"></aside>
+			<main class="proyects-main row">
+				<div class="proyect-banner mb-5 col-md-12">
+					<input type="button" class="proyect-banner-btn" value= "Postular mi proyecto"/>	
+				</div>
+
+				<div class="col-md-3">
+					<div id="accordion">
+  						<div class="card">
+    						<div class="card-header" id="headingOne">
+      							<h5 class="mb-0">
+        							<button class="btn btn-link" data-toggle="collapse" data-target="#proyects-categories" aria-expanded="true" aria-controls="proyects-categories">
+          							Categorías
+        							</button>
+      							</h5>
+    						</div>
+
+    						<div id="proyects-categories" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+      							<div class="card-body">
+      								<ul>
+										<li>Marketing Digital</li>
+										<li>Desarrollo Web</li>
+										<li>Diseño Web</li>
+										<li>Producto</li>
+										<li>Otro</li>      							
+      								</ul>
+      							</div>
+    						</div>
+  						</div>
+
+  						<div class="card">
+    						<div class="card-header" id="headingTwo">
+      							<h5 class="mb-0">
+        							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#proyects-country" aria-expanded="false" aria-controls="proyects-country">
+          							País
+        							</button>
+      							</h5>
+    						</div>
+
+    						<div id="proyects-country" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      							<div class="card-body">
+      								<ul>
+										<li>Argentina</li>
+										<li>Chile</li>
+										<li>Colombia</li>
+										<li>Uruguay</li>      							
+      								</ul>
+      							</div>
+    						</div>
+  						</div>
+
+					</div>	
+				</div>
+
+
+				<div class="col-md-9 row">
+
+					<div class="col-md-4 mb-3">
+						<div class="card proyect-card py-2">
+  							<div class="card-body">
+  								<h5><span class="proyect-state">New</span></h5>
+    							<h5 class="card-title my-3">Proyecto: Estrategia de MKT</h5>
+    							<p class="card-text">Estoy desarrollando un emprendimiento de ropa vintage que hace envíos ...</p>
+    							<div><img src="./assets/icons/user.svg" class="icon"><span class="counter">3</span></div> 
+    							
+    							<button type="button" class="postulate-btn m-3" href="#">Postularme</button>
+    							<button type="button" class="more-btn m-3" href="#">Ver más</button>
+  							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card proyect-card py-2">
+  							<div class="card-body">
+  								<h5><span class="proyect-state">New</span></h5>
+    							<h5 class="card-title my-3">Proyecto: Diseño<br>Web</h5>
+    							<p class="card-text">Quiero desarrollar una página web para poder demostrar mi portfolio personal. Además...</p>
+    							<div><img src="./assets/icons/user.svg" class="icon"><span class="counter">5</span></div> 
+    							
+    							<button type="button" class="postulate-btn m-3" href="#">Postularme</button>
+    							<button type="button" class="more-btn m-3" href="#">Ver más</button>
+  							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card proyect-card py-2">
+  							<div class="card-body">
+  								<h5><span class="proyect-state">New</span></h5>
+    							<h5 class="card-title my-3">Proyecto: Desarrollo Web</h5>
+    							<p class="card-text">Es un emprendimiento que recién empieza y está en proceso de expansión ya que ...</p>
+    							<div><img src="./assets/icons/user.svg" class="icon"><span class="counter">5</span></div> 
+    							
+    							<button type="button" class="postulate-btn m-3" href="#">Postularme</button>
+    							<button type="button" class="more-btn m-3" href="#">Ver más</button>
+  							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card proyect-card py-2">
+  							<div class="card-body">
+  								<h5><span class="proyect-state">New</span></h5>
+    							<h5 class="card-title my-3">Proyecto: Community Manager</h5>
+    							<p class="card-text">Necesito Ayuda para la gestión de redes y manejo de contenido / creación...</p>
+    							<div><img src="./assets/icons/user.svg" class="icon"><span class="counter">5</span></div> 
+    							
+    							<button type="button" class="postulate-btn m-3" href="#">Postularme</button>
+    							<button type="button" class="more-btn m-3" href="#">Ver más</button>
+  							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card proyect-card py-2">
+  							<div class="card-body">
+  								<h5><span class="proyect-state">New</span></h5>
+    							<h5 class="card-title my-3">Proyecto: Estrategia de MKT</h5>
+    							<p class="card-text">Estoy desarrollando un emprendimiento de ropa vintage que hace envíos.</p>
+    							<div><img src="./assets/icons/user.svg" class="icon"><span class="counter">3</span></div> 
+    							
+    							<button type="button" class="postulate-btn m-3" href="#">Postularme</button>
+    							<button type="button" class="more-btn m-3" href="#">Ver más</button>
+  							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card proyect-card py-2">
+  							<div class="card-body">
+  								<h5><span class="proyect-state">New</span></h5>
+    							<h5 class="card-title my-3">Proyecto: Estrategia de MKT</h5>
+    							<p class="card-text">Estoy desarrollando un emprendimiento de ropa vintage que hace envíos.</p>
+    							<div><img src="./assets/icons/user.svg" class="icon"><span class="counter">3</span></div> 
+    							
+    							<button type="button" class="postulate-btn m-3" href="#">Postularme</button>
+    							<button type="button" class="more-btn m-3" href="#">Ver más</button>
+  							</div>
+						</div>
+					</div>
+
+				</div>
+			</main>
+
+		</div>
+
+	</div>
+</body>
+</html>
+

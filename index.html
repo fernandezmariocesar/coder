@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CODER HOUSE - Área de Talentos - Proyectos</title>
+
+	<!-- Import CSS-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+
+
+	<!-- import JS -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script src="./assets/js/main.js"></script>
+
+
+	</head>
+	<body>
+	<div class="container-fluid">
+		<header>
+			
+		</header>
+
+		<!-- Start Content -->
+		<div id="content" class="row">
+			<aside class="col-md-2">
+				
+			</aside>
+
+			<main class="col-md-10">
+				<div class="benefits w-75 mx-auto">
+				<h4>Convertite en el TOP 10% de tu curso y accedé a increíbles beneficios</h4>
+				<p>Sumá puntos asistiendo a clases, completando las valoraciones, aprobando desafíos y obteniendo una calificación final para acceder a proyectos pagos.</p>
+				<p>El resultado final del Top 10% fue el: <span id="date">22/07/2020</span></p>
+				<button type="button" class="benefits-button" data-toggle="modal" data-target="#benefit-modal">Solicitar beneficios</button>
+				<div>
+				<div class=podium>
+					<!-- Aquí se inserta la tabla con listado de alunos del Top 10 -->
+				</div>
+
+				<!-- -->
+				<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="benefit-modal" tabindex="-1" role="dialog" aria-labelledby="benefitModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header benefit-modal-header">
+        <h5 class="modal-title" id="benefitModalLabel">Top 10%</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Ingresá el código que recibiste en tu email para obtener tu beneficio.</p>
+        <input type="text" name="coupon" placeholder="Ingresar código" />
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="">Enviar ></button>
+      </div>
+    </div>
+  </div>
+</div>
+				<!-- -->
+
+			</main>
+
+			<!-- Start Questions-->
+			<div class="questions">
+					<h5>Preguntas frecuentes</h5>
+					<h5>¿Cuál es el beneficio de estar dentro del TOP 10%?</h5>
+					<p>Servicio del área de Talento: Te estaremos acompañando y asesorando en el armado de CV, Linkedin y Portfolio, para acercarte cada día más al cumplimiento de tus objetivos profesionales, y que puedas destacarte en las siguientes búsquedas a las que postules.
+					- Tendrás la posibilidad de realizar un proyecto freelance brindado por Coderhouse. La idea de este proyecto es poner en práctica durante un mes todo lo que fuiste viendo en el curso. Luego de este mes, se te pagará lo que abonaste en la inscripción del curso hasta 15 días luego de la finalización del proyecto. Después de este mes, tanto vos como la empresa/proyecto/cliente con la que estés trabajando decidirán si quieren continuar y bajo qué modalidad.
+					- Adquirirás un cupón del 50% de descuento para que vos, o algún amigo o familiar tuyo pueda realizar un curso con nosotros! Será posible utilizar este voucher hasta 3 meses después de la finalización de tu curso.
+					- Podrás postular para formar parte del equipo de tutores de Coderhouse, y si te interesa, el día de mañana convertirte en profesor.
+					- Se otorgará el beneficio de un curso gratis a los alumnos que hayan adquirido su curso antes del miércoles 3 de junio de 2020. Y tendrán la posibilidad de utilizar dicho beneficio hasta el 31 de Diciembre del 2020.</p>
+
+					<h5>¿Cómo hago para estar en el TOP 10%?</h5>
+					<p>
+					- Por cada clase a la que asistan sumarás 1 punto.
+					- Por cada ausencia a clase restarás 1 punto.
+					- Por cada valoración que realices sumarás 1 punto.
+					- Por cada desafío que apruebes obtendrás 1 punto.
+					- Al aprobar el Proyecto Final. Sumarás tantos puntos como la nota que hayas obtenido.
+					</p>
+
+					<h5>¿Cuántas personas entran el TOP 10%?</h5>
+					<p>El Top10 funciona a partir de Porcentajes. El 10% de cada camada tendrá la posibilidad de acceder al ranking, es decir, si tu camada cuenta con un total de 60 alumnos, entonces serán 6 las personas que quedarán en el Top final. En caso de ser 110 las personas de una camada, entonces serán 11 las personas que puedan acceder al Top10. En caso de, por tema de puntajes, ser más, todas las personas del ranking podrán obtenerlo.</p>
+
+					<h5>¿El TOP 10% es entre todos los alumnos de Coder?</h5>
+					<p>No, habrá un TOP10 por cada curso que haya en Coder.</p>
+
+					<h5>¿Cuánto tiempo tendrán para presentar proyectos pagos?</h5>
+					<p>Desde que se define el TOP hasta dentro de los próximos 20 días, podremos presentarte proyectos.</p>
+
+					<h5>¿Qué pasa si no quiero aceptar ningún proyecto pago?</h5>
+					<p>No hay ningún problema. No es obligatorio que lo hagas. Desde Coderhouse te damos la posibilidad de adquirir experiencia laboral relacionada al curso que hiciste, pero no tenés ninguna obligación en aceptarlo.</p>
+
+					<h5>Deje de formar parte del TOP 10 porque me faltan correcciones</h5>
+					<p>No te preocupes, lo importante es que entregues los desafíos en tiempo y forma. Al ser corregido se sumarán los puntos correspondientes siempre y cuando sean aprobados.</p>
+
+					<h5>¿Tenés alguna consulta?</h5>
+					<p>Podés contactarnos a: <a href="#">talento@coderhouse.com.</a></p>	
+				</div>
+				<!-- Start Questions-->
+		</div>
+		<!-- End Content -->
+
+	</body>
+</html>

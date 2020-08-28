@@ -1,0 +1,129 @@
+/*ESTILOS DE PROYECTS*/
+.proyects-content {
+	width: 75%;
+}
+
+.proyect-banner {
+	position: relative;
+	background: orange;
+	height: 150px;
+}
+
+.proyect-banner-btn {
+	font-family: 'DM Sans', sans-serif;
+	font-size: 1.3em;
+	font-weight: 700;
+	text-align: center;
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	border-radius: 25px;
+	background: white;
+	color: black;
+	border: solid 1px black;
+	padding: 10px;
+}  
+
+.proyects-aside {
+	width: 10%;	
+}
+
+.proyects-main {
+	width: 90%;
+}
+
+#filters {
+	width: 20%;
+	display: block;
+	background: orange;
+}
+
+.proyect-card {
+	border-radius: 25px;
+	background: white;
+
+	font-family: 'DM Sans', sans-serif;
+	text-align: center;
+	
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.proyect-card:hover{
+	box-shadow: 0px 2px 5px 0px rgba(255,126,242,0.75);	
+}
+
+.proyect-state {
+	background: #FF7EF2;
+	color: white;
+	padding: 5px;
+	font-weight: 700; 
+	display: block;
+	margin: 0 auto;
+	text-transform: uppercase;
+	border-radius: 5px;
+	width: 30%;
+}
+
+.icon {
+	width: 12%;
+}
+
+.counter {
+	font-weight: 700;
+	font-style: 1.4em;
+}
+
+
+/*icons*/
+
+.postulate-btn {
+	background: black;
+	border-radius: 25px;
+	color: white;
+	width: 90%;
+	font-size: 1.3em;
+	font-weight: 700;
+	border: solid 1px white;
+	padding: 5px;
+	vertical-align: center;
+}
+
+.postulate-btn:hover {
+	background: white;
+	color: black;
+	border: solid 1px black;
+
+}
+
+.more-btn {
+	background: white;
+	border: solid 1px black;
+	border-radius: 25px;
+	width: 90%;
+	font-size: 1.3em;
+	font-weight: 700;
+	padding: 5px;
+}
+
+
+
+
+.benefits {
+	border: 2px solid;
+	text-align: center;	
+}
+
+.benefits:hover {
+	box-shadow: 10px 5px 5px black;
+} 
+
+.benefit-modal-header {
+	background: black;
+}
+
+.benefits-button {
+	border: 2px solid;
+	border-radius: 50px;
+	padding: 10px;
+	margin-bottom: 25px;
+}
